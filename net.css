@@ -1,0 +1,272 @@
+*{
+    flex-wrap: wrap;
+    margin: 0;
+    
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bg{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+}
+.shade{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 2px;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.556);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    
+}
+.head{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    /* font-size: larger; */
+    font-size: 25px;
+    text-align: center;
+    
+}
+.sub{
+    margin-top: 20px;
+}
+.sub2{
+    margin-top: 20px;
+}
+.ip{
+    padding: 10px;
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 20px ;
+    color: white;
+    overflow: hidden;
+}
+.ips{
+    padding: 5px;
+    /* width: 300px;
+    height: 20px; */
+    border-radius: 10px;
+    margin-top: 20px ;
+    border: 1px solid red;
+    background-color: red;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.icon{
+    position: absolute;
+    top: 10px;
+    z-index: 10px;
+    display: grid;
+    justify-content: center;
+    
+}
+/* .nav{
+    
+    
+    width: 800px;
+    align-items: center;
+
+} */
+.headicon{
+    
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    /* left: 10px; */
+    left: 50px;
+    
+
+}
+.signin{
+
+    border: 1px solid red;
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+    right: 50px;
+    margin-top: 20px; 
+    background-color: red;
+    color: white; 
+    border-radius: 14px;
+    
+}
+.pg2{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: right;
+    background-color: black;
+    /* padding-right: 100px; */
+    /* position: relative; */
+}
+.p2d{
+    position: absolute;
+    z-index: 40px;
+    top: 50%;
+    color: white;
+    left: 100px;
+    font-size: 50px;
+    bottom: 20px;
+    margin-bottom: 10px;
+    
+}
+.page2{
+    position: relative;
+}
+.p2dd{
+    position: absolute;
+    z-index: 40px;
+    top: 60%;
+    margin-top: 15px;
+    color: white;
+    left: 100px;
+    width: 100%; 
+    
+    font-weight: lighter ;   
+}
+
+.line{
+    width: 100%;
+    border: 3px solid rgb(72, 68, 68);
+}
+
+.page3{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    /* margin-right: 100px; */
+}
+.title{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.desc{
+    font-size: 20px;
+    font-weight: lighter ;
+}
+/* djfhfhlahdfdfljsdhfj */
+.page4{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    /* margin-right: 100px; */
+}
+.title4{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.desc4{
+    font-size: 20px;
+    font-weight: lighter ;
+}
+/* jahdlfhdasflisdajfhlfhlsahflasdfljdh */
+.page5{
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    /* margin-right: 100px; */
+}
+.title5{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.desc5{
+    font-size: 20px;
+    font-weight: lighter ;
+}
+h5{
+    /* border: 2px solid lightgrey; */
+    width: 1000px;
+    height: 50px;
+    margin-bottom: 10px;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(43, 42, 42);
+}
+.container{
+    background-color: black;
+    width: 100%;
+    height: 990px;
+    display: grid;
+    justify-content: center;
+    position: relative;
+}
+.last{
+    color: white;
+    display: grid;
+    justify-content: center;
+    margin-top:100px ;
+    font-size: 40px;
+}
+h5:hover{
+    background-color: gray;
+}
+.flex2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 40px;
+    margin: auto;
+}
+.ip1{
+    padding: 10px;
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 20px ;
+    color: white;
+    overflow: hidden;
+    color: white ;
+}
+.ips1{
+    padding: 5px;
+    /* width: 300px;
+    height: 20px; */
+    border-radius: 10px;
+    margin-top: 20px ;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+}
+
+
