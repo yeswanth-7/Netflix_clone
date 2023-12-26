@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1160px) {
+    .grp, .grp4 {
+        margin-right: 32px;
+    }
+
+    .grp5 {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 1110px) {
+    .page2,
+    .page3,
+    .page4,
+    .page5{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .page2text{
+        margin: 10px auto 10px;
+        text-align: center;
+    }
+
+    .p2d{
+        font-size: 42px;
+        font-weight: 600;
+        width: fit-content;
+    }
+}
